@@ -22,3 +22,25 @@
 ::-webkit-scrollbar-thumb {
   @apply bg-border rounded hover:bg-surfaceHighlight;
 }
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+  }
+}
+
+.pulse-animation {
+  animation: pulse-ring 2s infinite;
+}
+
+.leaflet-routing-container {
+  display: none !important;
+}

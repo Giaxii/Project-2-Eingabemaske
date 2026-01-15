@@ -536,16 +536,15 @@ const StationDetails = ({ station, vehicles, onSelectVehicle }: any) => {
                                 }}
                                 onClick={() => onSelectVehicle(v)}
                                 style={{
-                                    background: 'rgba(255,255,255,0.03)',
                                     borderRadius: '8px',
                                     padding: '12px',
                                     display: 'flex',
                                     justifyContent: 'space-between',
                                     alignItems: 'center',
                                     cursor: 'grab',
-                                    border: '1px solid transparent',
                                     transition: 'all 0.2s'
                                 }}
+                                className="bg-white/5 border border-transparent hover:bg-white/10 hover:border-blue-500/30 hover:shadow-md"
                             >
                                 <div>
                                     <div style={{ fontWeight: 600, fontSize: '0.9rem' }}>{v.subtype}</div>
