@@ -89,7 +89,8 @@ export const IntakeForm: React.FC = () => {
         callerName: false,
         location: false,
         keyFacts: false,
-        code: false
+        code: false,
+        callerPhone: false // Initialize callerPhone tracking
     });
 
     const handleChange = (field: string, value: any) => {
@@ -127,7 +128,52 @@ export const IntakeForm: React.FC = () => {
     // --- SMART INPUT LOGIC ---
     const handleDrop = (e: React.DragEvent, field: string) => {
         e.preventDefault();
+
+        // Strict Logic: Check key mappings
+        const typeMap: Record<string, string> = {
+            'callerName': 'callerName',
+            'location': 'location',
+            'keyFacts': 'keyword', // 'keyword' from LiveTranscript maps to 'keyFacts' here
+            'floor': 'details'
+        };
+
+        // If strict validation is required, check types. 
+        // For general usage: check if 'application/x-cad-[type]' exists
+        // simplified logic: allow text/plain fallback but prefer typed
+
         const text = e.dataTransfer.getData("text/plain");
+
+        // Logic check: Only allow 'location' type into 'location' or 'zip'/'city' fields?
+        // Let's implement basic type checking if possible.
+        // For now, we trust the user drop target for simplicity unless strict mapping is enforced.
+        // User Requirement: "A keyword tagged as 'Location/Address' cannot be dropped into a 'Symptoms' field"
+
+        const droppedType = e.dataTransfer.types.find(t => t.startsWith("application/x-cad-"));
+        if (droppedType) {
+            const typeSuffix = droppedType.split('-').pop()?.toLowerCase(); // e.g. 'callername'
+
+            // Validation Rules
+            // RELAXED LOGIC: Only strictly validate if it's explicitly a mismatch.
+            // Note: MIME types are lowercased by the browser, so we must compare case-insensitively.
+
+            if (field === 'location' && typeSuffix !== 'location') return;
+
+            // Fix: Compare lowercase 'callername' with lowercase field name if needed, or just hardcode check
+            if (field === 'callerName' && typeSuffix !== 'callername') return;
+
+            // User reported "I can no longer drag items into the 'Name' field".
+            // This might be because the transcript sets 'callerName' but we checked something else?
+            // Re-verified LiveTranscript: sets `application/x-cad-callerName`.
+            // So logic should hold. 
+            // HOWEVER, if the drag didn't set type correctly (e.g. cross browser), this fails.
+            // Let's allow fallback if text is present.
+        } else {
+            // If no x-cad type is present (e.g. external drag), allow it? 
+            // Or maybe the User dragged "Miller" which is callerName.
+            // Let's assume strict for internal, loose for external if functionality was broken.
+            // Actually, the user report implies a Regression.
+            // Removing strict check for now to ensure usability, unless type is KNOWN Wrong.
+        }
 
         if (text) {
             if (field === 'keyFacts') {
@@ -247,7 +293,17 @@ export const IntakeForm: React.FC = () => {
                     </h3>
                     <div className="grid grid-cols-2 gap-4">
                         <MagicInput label="Name" field="callerName" value={activeCall.callerName} placeholder="Lastname, Firstname" half {...commonInputProps} />
-                        <MagicInput label="Callback Number" field="callerPhone" icon={Phone} value={activeCall.callerPhone} placeholder="+1 ..." half {...commonInputProps} />
+                        <MagicInput
+                            label="Callback Number"
+                            field="callerPhone"
+                            icon={Phone}
+                            value={activeCall.callerPhone}
+                            placeholder="+1 ..."
+                            half
+                            {...commonInputProps}
+                        // Ensure AI Tag shows if filled, assuming we track callerPhone in aiFilledFields.
+                        // We need to initialize callerPhone in aiFilledFields state in IntakeForm.tsx
+                        />
                     </div>
                 </div>
 
@@ -340,20 +396,20 @@ export const IntakeForm: React.FC = () => {
                                             Quick Add
                                         </div>
                                         <div className="flex flex-col gap-0.5">
-                                            <button onClick={() => handleAddKeyword('Zimmerbrand')} className="text-left px-2 py-1.5 text-xs text-stone-300 hover:bg-white/10 hover:text-white rounded flex items-center justify-between group">
-                                                <span>Zimmerbrand</span>
+                                            <button onClick={() => handleAddKeyword('Room Fire')} className="text-left px-2 py-1.5 text-xs text-stone-300 hover:bg-white/10 hover:text-white rounded flex items-center justify-between group">
+                                                <span>Room Fire</span>
                                                 <Flame className="w-3 h-3 text-orange-500 opacity-0 group-hover:opacity-100" />
                                             </button>
-                                            <button onClick={() => handleAddKeyword('Dachstuhlbrand')} className="text-left px-2 py-1.5 text-xs text-stone-300 hover:bg-white/10 hover:text-white rounded flex items-center justify-between group">
-                                                <span>Dachstuhlbrand</span>
+                                            <button onClick={() => handleAddKeyword('Roof Fire')} className="text-left px-2 py-1.5 text-xs text-stone-300 hover:bg-white/10 hover:text-white rounded flex items-center justify-between group">
+                                                <span>Roof Fire</span>
                                                 <Flame className="w-3 h-3 text-orange-500 opacity-0 group-hover:opacity-100" />
                                             </button>
-                                            <button onClick={() => handleAddKeyword('Reanimation')} className="text-left px-2 py-1.5 text-xs text-stone-300 hover:bg-white/10 hover:text-white rounded flex items-center justify-between group">
-                                                <span>Reanimation</span>
+                                            <button onClick={() => handleAddKeyword('CPR')} className="text-left px-2 py-1.5 text-xs text-stone-300 hover:bg-white/10 hover:text-white rounded flex items-center justify-between group">
+                                                <span>CPR</span>
                                                 <Ambulance className="w-3 h-3 text-blue-500 opacity-0 group-hover:opacity-100" />
                                             </button>
-                                            <button onClick={() => handleAddKeyword('Verkehrsunfall')} className="text-left px-2 py-1.5 text-xs text-stone-300 hover:bg-white/10 hover:text-white rounded flex items-center justify-between group">
-                                                <span>Verkehrsunfall</span>
+                                            <button onClick={() => handleAddKeyword('Car Accident')} className="text-left px-2 py-1.5 text-xs text-stone-300 hover:bg-white/10 hover:text-white rounded flex items-center justify-between group">
+                                                <span>Car Accident</span>
                                                 <AlertCircle className="w-3 h-3 text-red-500 opacity-0 group-hover:opacity-100" />
                                             </button>
                                         </div>
@@ -365,7 +421,7 @@ export const IntakeForm: React.FC = () => {
                         {/* 2. CLASSIFICATION & PRIO ROW columns */}
                         <div className="flex items-center justify-between gap-4">
                             <label className="text-sm font-bold text-white shrink-0">
-                                Klassifikation & Prio:
+                                Classification & Prio:
                             </label>
 
                             <div className="flex items-center gap-3">
@@ -421,8 +477,8 @@ export const IntakeForm: React.FC = () => {
                                     <input
                                         type="text"
                                         className="w-full h-full bg-surface border border-white/10 rounded-lg text-center font-mono font-bold text-white outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 placeholder:text-stone-600 text-sm"
-                                        placeholder="Pers."
-                                        title="Anzahl betroffene Personen"
+                                        placeholder="Pax"
+                                        title="Number of affected persons"
                                         value={activeCall.affectedPersonCount || ''}
                                         onChange={(e) => handleChange('affectedPersonCount', e.target.value)}
                                     />

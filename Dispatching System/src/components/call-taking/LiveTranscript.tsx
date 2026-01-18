@@ -69,7 +69,8 @@ export const LiveTranscript: React.FC<LiveTranscriptProps> = ({ onToggleCollapse
 
     const handleDragStart = (e: React.DragEvent, text: string, type: string) => {
         e.dataTransfer.setData("text/plain", text);
-        e.dataTransfer.setData("application/x-cad-entity-type", type);
+        // Context-Aware Logic: Add specific MIME type
+        e.dataTransfer.setData(`application/x-cad-${type}`, text);
         e.dataTransfer.effectAllowed = "copy";
     };
 
@@ -249,11 +250,11 @@ export const LiveTranscript: React.FC<LiveTranscriptProps> = ({ onToggleCollapse
                 </div>
             </div>
 
-            {/* Scrollable Transcript Area - Fixed Height of 800px */}
+            {/* Scrollable Transcript Area - Fixed Height to 1000px as requested */}
             <div
                 className="w-full overflow-y-auto p-4 space-y-4 scroll-smooth border-t border-white/5 bg-black/20"
                 ref={scrollRef}
-                style={{ height: '100%', flex: '1' }} // Full height, flex grow
+                style={{ height: '1000px', flex: 'none' }} // Strict Height: 1000px
             >
                 {lines.map((line, idx) => {
                     const isCaller = idx % 2 !== 0;

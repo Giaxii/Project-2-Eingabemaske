@@ -1,45 +1,59 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { Panel, PanelGroup, PanelResizeHandle } from 'react-resizable-panels';
 import type { ImperativePanelHandle } from 'react-resizable-panels';
 import { LiveTranscript } from './LiveTranscript';
 import { IntakeForm } from './IntakeForm';
-import { DispatchRecommendation } from './DispatchRecommendation'; // New Import
+import { DispatchRecommendation } from './DispatchRecommendation';
 import { CallHeader } from './CallHeader';
+import { useCAD } from '../../context/CADContext';
 
 export const CallTakingView: React.FC = () => {
-    const transcriptRef = useRef<ImperativePanelHandle>(null);
-    const [isTranscriptCollapsed, setIsTranscriptCollapsed] = useState(false);
+    const { activeCall } = useCAD();
+    const [isFocusMode, setIsFocusMode] = useState(false);
 
-    const toggleTranscript = () => {
-        const panel = transcriptRef.current;
-        if (panel) {
-            if (isTranscriptCollapsed) {
-                panel.expand();
+    // Panel Refs for imperative resizing
+    const transcriptPanelRef = useRef<ImperativePanelHandle>(null);
+    const formPanelRef = useRef<ImperativePanelHandle>(null);
+    const dispatchPanelRef = useRef<ImperativePanelHandle>(null);
+
+    // Logic: If we have Location & Code -> Dispatch is "Visible" (Ready).
+    const isDispatchReady = Boolean(activeCall.location && activeCall.location.length > 3 && activeCall.code);
+
+    // Effect: Handle Dynamic Resizing for Focus Mode
+    useEffect(() => {
+        const transcriptPanel = transcriptPanelRef.current;
+        const formPanel = formPanelRef.current;
+        const dispatchPanel = dispatchPanelRef.current;
+
+        if (transcriptPanel && formPanel && dispatchPanel) {
+            if (isFocusMode) {
+                // Focus Mode: Expand Dispatch to 50%, Shrink others
+                transcriptPanel.resize(20);
+                formPanel.resize(30);
+                dispatchPanel.resize(50);
             } else {
-                panel.collapse();
+                // Default Mode: Balanced
+                transcriptPanel.resize(30);
+                formPanel.resize(45);
+                dispatchPanel.resize(25);
             }
         }
-    };
+    }, [isFocusMode, isDispatchReady]);
 
     return (
         <div className="absolute inset-0 bg-background flex flex-col">
-            {/* New Header */}
             <CallHeader />
 
             <div className="flex-1 relative">
                 <PanelGroup direction="horizontal" style={{ height: '100%' }}>
                     {/* Left Panel: Transcript */}
                     <Panel
-                        ref={transcriptRef}
-                        defaultSize={30}
+                        ref={transcriptPanelRef}
+                        defaultSize={isDispatchReady ? 30 : 55}
                         minSize={15}
-                        collapsible={true}
-                        collapsedSize={0}
-                        onCollapse={() => setIsTranscriptCollapsed(true)}
-                        onExpand={() => setIsTranscriptCollapsed(false)}
                         className="p-4 pr-2 transition-all duration-300 ease-in-out h-full flex flex-col overflow-hidden"
                     >
-                        <LiveTranscript onToggleCollapse={toggleTranscript} isCollapsed={isTranscriptCollapsed} />
+                        <LiveTranscript />
                     </Panel>
 
                     <PanelResizeHandle className="w-1 bg-transparent hover:bg-primary transition-colors flex items-center justify-center -ml-0.5 z-10 group">
@@ -47,7 +61,12 @@ export const CallTakingView: React.FC = () => {
                     </PanelResizeHandle>
 
                     {/* Middle Panel: Intake Form */}
-                    <Panel defaultSize={45} minSize={30} className="p-4 px-2">
+                    <Panel
+                        ref={formPanelRef}
+                        defaultSize={45}
+                        minSize={30}
+                        className="p-4 px-2 transition-all duration-300 ease-in-out"
+                    >
                         <IntakeForm />
                     </Panel>
 
@@ -56,9 +75,17 @@ export const CallTakingView: React.FC = () => {
                     </PanelResizeHandle>
 
                     {/* Right Panel: Dispatch Recommendation */}
-                    <Panel defaultSize={25} minSize={20} className="p-4 pl-2 h-full flex flex-col overflow-hidden">
-                        <DispatchRecommendation />
-                    </Panel>
+                    {/* Only render when ready, creating the dynamic resize effect on the Left Panel */}
+                    {isDispatchReady && (
+                        <Panel
+                            ref={dispatchPanelRef}
+                            defaultSize={25}
+                            minSize={20}
+                            className="p-4 pl-2 h-full flex flex-col overflow-hidden animate-in slide-in-from-right duration-500 transition-all duration-300 ease-in-out"
+                        >
+                            <DispatchRecommendation onSelectionChange={setIsFocusMode} />
+                        </Panel>
+                    )}
                 </PanelGroup>
             </div>
         </div>
