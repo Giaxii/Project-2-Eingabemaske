@@ -67,7 +67,7 @@ export const ResourceDetailModal: React.FC<ResourceDetailModalProps> = ({ resour
                     <div className="bg-white/5 rounded-lg border border-white/10 p-3">
                         <div className="flex justify-between items-center text-[10px] font-bold uppercase tracking-wider mb-2">
                             <span className="text-textMuted">ROUTE</span>
-                            <span className="text-yellow-500">STABLE</span>
+                            <span className="text-white">5 MIN</span>
                         </div>
                         <div className="h-1 w-full bg-white/10 rounded-full overflow-hidden">
                             <div className="h-full bg-yellow-500 w-[60%] rounded-full" />
@@ -126,7 +126,7 @@ export const ResourceDetailModal: React.FC<ResourceDetailModalProps> = ({ resour
                                 </div>
                                 <div className="text-right">
                                     <div className="text-[10px] font-bold text-textMuted uppercase tracking-widest mb-1">DISTANCE</div>
-                                    <div className="font-mono text-white text-sm">3.0 km</div>
+                                    <div className="font-mono text-white text-sm">3.0 km <span className="text-textMuted mx-1">/</span> 5 min</div>
                                 </div>
                             </div>
 
@@ -189,17 +189,19 @@ export const ResourceDetailModal: React.FC<ResourceDetailModalProps> = ({ resour
                         <div className="space-y-3 px-2 pb-2">
                             {/* Static Mock Alternatives for UI Polish */}
                             {[
-                                { id: 'alt1', name: 'IN-RK 71/1', match: '36-40%', delta: '+1m Approach', warning: 'Equipment Missing' },
-                                { id: 'alt2', name: 'IN-RK 71/3', match: '36-40%', delta: '+1m Approach', warning: 'Equipment Missing' },
-                                { id: 'alt3', name: 'MHD-IN 1', match: '32-42%', delta: '+1m Approach', warning: 'Equipment Missing' },
-                                { id: 'alt4', name: 'IN-RK 73/1', match: '16-20%', delta: '+6m Approach', warning: 'Equipment Missing' },
+                                { id: 'alt1', name: 'IN-RK 71/1', match: '36-40%', eta: '6 min', delta: '+1m Approach', warning: 'Equipment Missing' },
+                                { id: 'alt2', name: 'IN-RK 71/3', match: '36-40%', eta: '6 min', delta: '+1m Approach', warning: 'Equipment Missing' },
+                                { id: 'alt3', name: 'MHD-IN 1', match: '32-42%', eta: '6 min', delta: '+1m Approach', warning: 'Equipment Missing' },
+                                { id: 'alt4', name: 'IN-RK 73/1', match: '16-20%', eta: '11 min', delta: '+6m Approach', warning: 'Equipment Missing' },
                             ].map((alt) => (
                                 <div key={alt.id} className="p-3 rounded-lg border border-white/10 bg-white/5 hover:bg-white/10 transition-all cursor-pointer group relative">
                                     <div className="flex justify-between items-start mb-1">
                                         <span className="font-bold text-white text-sm">{alt.name}</span>
                                         <span className="text-red-400 font-bold font-mono text-sm">{alt.match}</span>
                                     </div>
-                                    <div className="text-xs text-textMuted mb-2">{alt.delta}</div>
+                                    <div className="text-xs text-textMuted mb-2 font-mono">
+                                        <span className="text-white font-bold">{alt.eta}</span> <span className="opacity-60">({alt.delta})</span>
+                                    </div>
                                     {alt.warning && (
                                         <div className="text-xs text-yellow-500 flex items-center gap-1.5 font-medium mb-3">
                                             <AlertTriangle className="w-3 h-3" /> {alt.warning}

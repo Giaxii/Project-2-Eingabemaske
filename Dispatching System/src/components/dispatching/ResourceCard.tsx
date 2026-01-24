@@ -97,6 +97,12 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
                                 {type}
                             </span>
                         </div>
+                        {/* ETA & Distance Context */}
+                        <div className="flex items-center gap-2 text-xs font-mono">
+                            <span className="text-green-400 font-bold">{eta}</span>
+                            <span className="text-white/20">•</span>
+                            <span className="text-textMuted">{distance}</span>
+                        </div>
                     </div>
                 </div>
 
