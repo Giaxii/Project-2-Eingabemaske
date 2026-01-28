@@ -630,8 +630,8 @@ const StationDetails = ({ station, vehicles, onSelectVehicle, dispatchProposalUn
                                     }} />
                                 )}
                                 <div>
-                                    <div style={{ fontWeight: 600, fontSize: '0.9rem' }}>{v.subtype}</div>
-                                    <div style={{ fontSize: '0.75rem', color: '#94a3b8' }}>{v.name}</div>
+                                    <div style={{ fontWeight: 600, fontSize: '0.9rem' }}>{v.name}</div>
+                                    <div style={{ fontSize: '0.75rem', color: '#94a3b8' }}>{v.subtype}</div>
                                 </div>
                                 <span style={{
                                     padding: '2px 8px',

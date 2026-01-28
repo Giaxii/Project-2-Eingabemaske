@@ -133,9 +133,9 @@ export const AddUnitModal: React.FC<AddUnitModalProps> = ({ isOpen, onClose }) =
                                                     {category === 'EMS' ? <Ambulance className="w-5 h-5" /> : <Truck className="w-5 h-5" />}
                                                 </div>
                                                 <div className="flex-1 min-w-0">
-                                                    <div className="font-bold text-sm text-white truncate">{unit.callSign}</div>
+                                                    <div className="font-bold text-sm text-white truncate">{unit.type}</div>
                                                     <div className="flex items-center gap-2 mt-0.5">
-                                                        <span className="text-[10px] text-textMuted uppercase font-semibold">{unit.type}</span>
+                                                        <span className="text-[10px] text-textMuted uppercase font-semibold">{unit.callSign}</span>
                                                         <span className={cn(
                                                             "w-1.5 h-1.5 rounded-full",
                                                             unit.status === 'S1' ? "bg-green-500" : "bg-yellow-500"

@@ -94,11 +94,11 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
 
                     {/* Text Details */}
                     <div>
-                        <div className="flex items-center gap-2 mb-1">
-                            <span className="font-black text-xl text-white tracking-tight">{callsign}</span>
-                            <span className="px-1.5 py-0.5 rounded bg-white/10 border border-white/10 text-[10px] font-bold text-textMuted uppercase tracking-wider">
-                                {type}
-                            </span>
+                        <div className="font-black text-xl text-white tracking-tight mb-1">
+                            {callsign}
+                        </div>
+                        <div className="text-xs font-bold text-textMuted uppercase tracking-wider mb-1">
+                            {type}
                         </div>
                         {/* ETA & Distance Context */}
                         <div className="flex items-center gap-2 text-xs font-mono">
