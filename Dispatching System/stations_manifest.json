@@ -1,0 +1,486 @@
+[
+    {
+        "id": "01",
+        "name": "Station 01 - SOMA",
+        "coords": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "02",
+        "name": "Station 02 - Chinatown",
+        "coords": {
+            "lat": 37.7972,
+            "lng": -122.4101
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "03",
+        "name": "Station 03 - Tenderloin",
+        "coords": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "04",
+        "name": "Station 04 - Mission Bay",
+        "coords": {
+            "lat": 37.7719,
+            "lng": -122.3888
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "05",
+        "name": "Station 05 - Western Addition",
+        "coords": {
+            "lat": 37.7797,
+            "lng": -122.4316
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "06",
+        "name": "Station 06 - Castro",
+        "coords": {
+            "lat": 37.7656,
+            "lng": -122.4308
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "07",
+        "name": "Station 07 - Mission",
+        "coords": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "08",
+        "name": "Station 08 - South Beach",
+        "coords": {
+            "lat": 37.7771,
+            "lng": -122.3951
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "09",
+        "name": "Station 09 - Dogpatch",
+        "coords": {
+            "lat": 37.7455,
+            "lng": -122.3956
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "10",
+        "name": "Station 10 - Presidio Heights",
+        "coords": {
+            "lat": 37.786,
+            "lng": -122.4468
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "11",
+        "name": "Station 11 - Noe Valley",
+        "coords": {
+            "lat": 37.7485,
+            "lng": -122.4265
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "12",
+        "name": "Station 12 - Haight-Ashbury",
+        "coords": {
+            "lat": 37.7634,
+            "lng": -122.4518
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "13",
+        "name": "Station 13 - Financial Dist",
+        "coords": {
+            "lat": 37.795,
+            "lng": -122.4022
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "14",
+        "name": "Station 14 - Outer Richmond",
+        "coords": {
+            "lat": 37.7806,
+            "lng": -122.4855
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "15",
+        "name": "Station 15 - Ingleside",
+        "coords": {
+            "lat": 37.7242,
+            "lng": -122.4578
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "16",
+        "name": "Station 16 - Marina District",
+        "coords": {
+            "lat": 37.7997,
+            "lng": -122.4357
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "17",
+        "name": "Station 17 - Bayview",
+        "coords": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "18",
+        "name": "Station 18 - Outer Parkside",
+        "coords": {
+            "lat": 37.7513,
+            "lng": -122.4901
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "19",
+        "name": "Station 19 - Stonestown",
+        "coords": {
+            "lat": 37.7266,
+            "lng": -122.4764
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "20",
+        "name": "Station 20 - Twin Peaks",
+        "coords": {
+            "lat": 37.749,
+            "lng": -122.4529
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "21",
+        "name": "Station 21 - Panhandle",
+        "coords": {
+            "lat": 37.7765,
+            "lng": -122.4414
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "22",
+        "name": "Station 22 - Sunset District",
+        "coords": {
+            "lat": 37.7645,
+            "lng": -122.4735
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "23",
+        "name": "Station 23 - Outer Sunset",
+        "coords": {
+            "lat": 37.7619,
+            "lng": -122.5052
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "24",
+        "name": "Station 24 - Eureka Valley",
+        "coords": {
+            "lat": 37.7512,
+            "lng": -122.4413
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "25",
+        "name": "Station 25 - Dog Patch South",
+        "coords": {
+            "lat": 37.7478,
+            "lng": -122.3881
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "26",
+        "name": "Station 26 - Glen Park",
+        "coords": {
+            "lat": 37.7377,
+            "lng": -122.4344
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "28",
+        "name": "Station 28 - North Beach",
+        "coords": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "29",
+        "name": "Station 29 - Design District",
+        "coords": {
+            "lat": 37.7667,
+            "lng": -122.4042
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "31",
+        "name": "Station 31 - Inner Richmond",
+        "coords": {
+            "lat": 37.7801,
+            "lng": -122.4705
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "32",
+        "name": "Station 32 - College Hill",
+        "coords": {
+            "lat": 37.7358,
+            "lng": -122.4239
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "33",
+        "name": "Station 33 - Oceanview",
+        "coords": {
+            "lat": 37.7238,
+            "lng": -122.4533
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "34",
+        "name": "Station 34 - Lands End",
+        "coords": {
+            "lat": 37.7788,
+            "lng": -122.502
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "35",
+        "name": "Station 35 - Fireboat (Pier 22.5)",
+        "coords": {
+            "lat": 37.7909,
+            "lng": -122.3884
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "36",
+        "name": "Station 36 - Bayview/Oakdale",
+        "coords": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "37",
+        "name": "Station 37 - Potrero Hill",
+        "coords": {
+            "lat": 37.7562,
+            "lng": -122.3992
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "38",
+        "name": "Station 38 - Pacific Heights",
+        "coords": {
+            "lat": 37.7889,
+            "lng": -122.4326
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "39",
+        "name": "Station 39 - Portola",
+        "coords": {
+            "lat": 37.7402,
+            "lng": -122.4649
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "40",
+        "name": "Station 40 - Sunset Park",
+        "coords": {
+            "lat": 37.7479,
+            "lng": -122.4754
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "41",
+        "name": "Station 41 - Nob Hill",
+        "coords": {
+            "lat": 37.795,
+            "lng": -122.415
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "42",
+        "name": "Station 42 - San Bruno Ave",
+        "coords": {
+            "lat": 37.7303,
+            "lng": -122.405
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "43",
+        "name": "Station 43 - Excelsior",
+        "coords": {
+            "lat": 37.7234,
+            "lng": -122.4287
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "44",
+        "name": "Station 44 - Visitacion Valley",
+        "coords": {
+            "lat": 37.7176,
+            "lng": -122.4011
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "48",
+        "name": "Station 48 - Treasure Island",
+        "coords": {
+            "lat": 37.8247,
+            "lng": -122.3708
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    },
+    {
+        "id": "51",
+        "name": "Station 51 - Presidio",
+        "coords": {
+            "lat": 37.8,
+            "lng": -122.47
+        },
+        "type": "Firehouse/EMS Base",
+        "status": "active",
+        "source": "Official SFFD"
+    }
+]

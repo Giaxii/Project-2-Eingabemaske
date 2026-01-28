@@ -1,0 +1,3962 @@
+[
+    {
+        "unit_id": "AM102",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "06",
+        "current_pos": {
+            "lat": 37.7656,
+            "lng": -122.4308
+        },
+        "status": {
+            "battery": 78,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM104",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "14",
+        "current_pos": {
+            "lat": 37.7806,
+            "lng": -122.4855
+        },
+        "status": {
+            "battery": 86,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM106",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "11",
+        "current_pos": {
+            "lat": 37.74282,
+            "lng": -122.43807
+        },
+        "status": {
+            "battery": 79,
+            "fatigue": "Frisch",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "AM108",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM110",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM112",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 81,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM114",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM116",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 83,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM118",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "48",
+        "current_pos": {
+            "lat": 37.8247,
+            "lng": -122.3708
+        },
+        "status": {
+            "battery": 86,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM120",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 89,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM122",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "15",
+        "current_pos": {
+            "lat": 37.7242,
+            "lng": -122.4578
+        },
+        "status": {
+            "battery": 94,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM124",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 77,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM126",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "15",
+        "current_pos": {
+            "lat": 37.7242,
+            "lng": -122.4578
+        },
+        "status": {
+            "battery": 82,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM128",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "05",
+        "current_pos": {
+            "lat": 37.7797,
+            "lng": -122.4316
+        },
+        "status": {
+            "battery": 92,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM130",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "17",
+        "current_pos": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "status": {
+            "battery": 78,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM150",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 88,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM152",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 89,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM154",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "34",
+        "current_pos": {
+            "lat": 37.7788,
+            "lng": -122.502
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM156",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "21",
+        "current_pos": {
+            "lat": 37.7765,
+            "lng": -122.4414
+        },
+        "status": {
+            "battery": 79,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM160",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "12",
+        "current_pos": {
+            "lat": 37.7634,
+            "lng": -122.4518
+        },
+        "status": {
+            "battery": 95,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM201",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 91,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM202",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 91,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM203",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 93,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM204",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "17",
+        "current_pos": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "status": {
+            "battery": 96,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM205",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "41",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.415
+        },
+        "status": {
+            "battery": 71,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM206",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "05",
+        "current_pos": {
+            "lat": 37.7797,
+            "lng": -122.4316
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM207",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.761358587,
+            "lng": -122.395437999
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "AM208",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "41",
+        "current_pos": {
+            "lat": 37.789225615,
+            "lng": -122.408595045
+        },
+        "status": {
+            "battery": 87,
+            "fatigue": "Frisch",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "AM213",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "44",
+        "current_pos": {
+            "lat": 37.7176,
+            "lng": -122.4011
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM215",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "42",
+        "current_pos": {
+            "lat": 37.7303,
+            "lng": -122.405
+        },
+        "status": {
+            "battery": 78,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM217",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "26",
+        "current_pos": {
+            "lat": 37.7377,
+            "lng": -122.4344
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM219",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "44",
+        "current_pos": {
+            "lat": 37.7176,
+            "lng": -122.4011
+        },
+        "status": {
+            "battery": 82,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM231",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "10",
+        "current_pos": {
+            "lat": 37.786,
+            "lng": -122.4468
+        },
+        "status": {
+            "battery": 86,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM233",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "17",
+        "current_pos": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "status": {
+            "battery": 83,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM235",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM244",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "29",
+        "current_pos": {
+            "lat": 37.7667,
+            "lng": -122.4042
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM293",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 94,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AM320",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 88,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AMBT01",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "25",
+        "current_pos": {
+            "lat": 37.7478,
+            "lng": -122.3881
+        },
+        "status": {
+            "battery": 81,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "AR1",
+        "type": "INVESTIGATION",
+        "is_als": false,
+        "home_station": "41",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.415
+        },
+        "status": {
+            "battery": 74,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B01",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "13",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.4022
+        },
+        "status": {
+            "battery": 74,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B02",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "04",
+        "current_pos": {
+            "lat": 37.7719,
+            "lng": -122.3888
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B03",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 91,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B04",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B05",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "21",
+        "current_pos": {
+            "lat": 37.7765,
+            "lng": -122.4414
+        },
+        "status": {
+            "battery": 95,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B06",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "06",
+        "current_pos": {
+            "lat": 37.7656,
+            "lng": -122.4308
+        },
+        "status": {
+            "battery": 74,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B07",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "34",
+        "current_pos": {
+            "lat": 37.7788,
+            "lng": -122.502
+        },
+        "status": {
+            "battery": 92,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B08",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "39",
+        "current_pos": {
+            "lat": 37.7402,
+            "lng": -122.4649
+        },
+        "status": {
+            "battery": 97,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B09",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "33",
+        "current_pos": {
+            "lat": 37.7238,
+            "lng": -122.4533
+        },
+        "status": {
+            "battery": 79,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B10",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "04",
+        "current_pos": {
+            "lat": 37.7719,
+            "lng": -122.3888
+        },
+        "status": {
+            "battery": 98,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B13TK1",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "35",
+        "current_pos": {
+            "lat": 37.7909,
+            "lng": -122.3884
+        },
+        "status": {
+            "battery": 98,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "B13TK2",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "35",
+        "current_pos": {
+            "lat": 37.793791595,
+            "lng": -122.392572903
+        },
+        "status": {
+            "battery": 84,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "B13TK3",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "35",
+        "current_pos": {
+            "lat": 37.7909,
+            "lng": -122.3884
+        },
+        "status": {
+            "battery": 96,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "BE1",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 92,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "BLS801",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "BLS802",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "39",
+        "current_pos": {
+            "lat": 37.7402,
+            "lng": -122.4649
+        },
+        "status": {
+            "battery": 85,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "BLS803",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 95,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "BT01",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 82,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "CHPH30",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "51",
+        "current_pos": {
+            "lat": 37.8,
+            "lng": -122.47
+        },
+        "status": {
+            "battery": 83,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "CP2",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "17",
+        "current_pos": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "CP5",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "41",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.415
+        },
+        "status": {
+            "battery": 89,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "CP7",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "04",
+        "current_pos": {
+            "lat": 37.7719,
+            "lng": -122.3888
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "CR14",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "14",
+        "current_pos": {
+            "lat": 37.7806,
+            "lng": -122.4855
+        },
+        "status": {
+            "battery": 72,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "CR19",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "19",
+        "current_pos": {
+            "lat": 37.7266,
+            "lng": -122.4764
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "D2",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "D3",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "08",
+        "current_pos": {
+            "lat": 37.7771,
+            "lng": -122.3951
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "DU1",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "05",
+        "current_pos": {
+            "lat": 37.7797,
+            "lng": -122.4316
+        },
+        "status": {
+            "battery": 93,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E01",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.786658874,
+            "lng": -122.409775109
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "E02",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "02",
+        "current_pos": {
+            "lat": 37.7972,
+            "lng": -122.4101
+        },
+        "status": {
+            "battery": 89,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E03",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 85,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E04",
+        "type": "ENGINE",
+        "is_als": false,
+        "home_station": "04",
+        "current_pos": {
+            "lat": 37.7719,
+            "lng": -122.3888
+        },
+        "status": {
+            "battery": 84,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E05",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "38",
+        "current_pos": {
+            "lat": 37.7889,
+            "lng": -122.4326
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E06",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "06",
+        "current_pos": {
+            "lat": 37.7656,
+            "lng": -122.4308
+        },
+        "status": {
+            "battery": 92,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E07",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 93,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E08",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E09",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "09",
+        "current_pos": {
+            "lat": 37.7455,
+            "lng": -122.3956
+        },
+        "status": {
+            "battery": 93,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E10",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "10",
+        "current_pos": {
+            "lat": 37.786,
+            "lng": -122.4468
+        },
+        "status": {
+            "battery": 89,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E11",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "11",
+        "current_pos": {
+            "lat": 37.7485,
+            "lng": -122.4265
+        },
+        "status": {
+            "battery": 74,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E12",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "12",
+        "current_pos": {
+            "lat": 37.7634,
+            "lng": -122.4518
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E13",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "13",
+        "current_pos": {
+            "lat": 37.790198574,
+            "lng": -122.404670789
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "E14",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "14",
+        "current_pos": {
+            "lat": 37.7806,
+            "lng": -122.4855
+        },
+        "status": {
+            "battery": 97,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E15",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "15",
+        "current_pos": {
+            "lat": 37.7242,
+            "lng": -122.4578
+        },
+        "status": {
+            "battery": 86,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E16",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 94,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E17",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "17",
+        "current_pos": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "status": {
+            "battery": 89,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E18",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "22",
+        "current_pos": {
+            "lat": 37.7645,
+            "lng": -122.4735
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E19",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "19",
+        "current_pos": {
+            "lat": 37.7266,
+            "lng": -122.4764
+        },
+        "status": {
+            "battery": 92,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E20",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "20",
+        "current_pos": {
+            "lat": 37.735504,
+            "lng": -122.45971
+        },
+        "status": {
+            "battery": 89,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "E21",
+        "type": "ENGINE",
+        "is_als": false,
+        "home_station": "21",
+        "current_pos": {
+            "lat": 37.7765,
+            "lng": -122.4414
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E22",
+        "type": "ENGINE",
+        "is_als": false,
+        "home_station": "22",
+        "current_pos": {
+            "lat": 37.7645,
+            "lng": -122.4735
+        },
+        "status": {
+            "battery": 84,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E23",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "23",
+        "current_pos": {
+            "lat": 37.7619,
+            "lng": -122.5052
+        },
+        "status": {
+            "battery": 83,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E24",
+        "type": "ENGINE",
+        "is_als": false,
+        "home_station": "24",
+        "current_pos": {
+            "lat": 37.7512,
+            "lng": -122.4413
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E25",
+        "type": "ENGINE",
+        "is_als": false,
+        "home_station": "25",
+        "current_pos": {
+            "lat": 37.7478,
+            "lng": -122.3881
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E26",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "15",
+        "current_pos": {
+            "lat": 37.7242,
+            "lng": -122.4578
+        },
+        "status": {
+            "battery": 72,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E28",
+        "type": "ENGINE",
+        "is_als": false,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E29",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "29",
+        "current_pos": {
+            "lat": 37.7667,
+            "lng": -122.4042
+        },
+        "status": {
+            "battery": 93,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E31",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "31",
+        "current_pos": {
+            "lat": 37.7801,
+            "lng": -122.4705
+        },
+        "status": {
+            "battery": 94,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E32",
+        "type": "ENGINE",
+        "is_als": false,
+        "home_station": "32",
+        "current_pos": {
+            "lat": 37.7358,
+            "lng": -122.4239
+        },
+        "status": {
+            "battery": 81,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E33",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "33",
+        "current_pos": {
+            "lat": 37.709488,
+            "lng": -122.4479
+        },
+        "status": {
+            "battery": 82,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "E34",
+        "type": "ENGINE",
+        "is_als": false,
+        "home_station": "34",
+        "current_pos": {
+            "lat": 37.7788,
+            "lng": -122.502
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E35",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E36",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 71,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E37",
+        "type": "ENGINE",
+        "is_als": false,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 97,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E38",
+        "type": "ENGINE",
+        "is_als": false,
+        "home_station": "38",
+        "current_pos": {
+            "lat": 37.7889,
+            "lng": -122.4326
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E39",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "39",
+        "current_pos": {
+            "lat": 37.7402,
+            "lng": -122.4649
+        },
+        "status": {
+            "battery": 88,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E40",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "22",
+        "current_pos": {
+            "lat": 37.7645,
+            "lng": -122.4735
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E41",
+        "type": "ENGINE",
+        "is_als": false,
+        "home_station": "41",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.415
+        },
+        "status": {
+            "battery": 94,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E42",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "17",
+        "current_pos": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "status": {
+            "battery": 74,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E43",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "43",
+        "current_pos": {
+            "lat": 37.7234,
+            "lng": -122.4287
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E44",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "44",
+        "current_pos": {
+            "lat": 37.7176,
+            "lng": -122.4011
+        },
+        "status": {
+            "battery": 84,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E48",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "48",
+        "current_pos": {
+            "lat": 37.8247,
+            "lng": -122.3708
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "E51",
+        "type": "ENGINE",
+        "is_als": true,
+        "home_station": "16",
+        "current_pos": {
+            "lat": 37.7997,
+            "lng": -122.4357
+        },
+        "status": {
+            "battery": 72,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "EMS1",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "EMS10",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 75,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "EMS2",
+        "type": "CHIEF",
+        "is_als": false,
+        "home_station": "38",
+        "current_pos": {
+            "lat": 37.7889,
+            "lng": -122.4326
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "EMS6A",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "17",
+        "current_pos": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "status": {
+            "battery": 88,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "EMS6B",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "35",
+        "current_pos": {
+            "lat": 37.7909,
+            "lng": -122.3884
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "EMS6C",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "32",
+        "current_pos": {
+            "lat": 37.7358,
+            "lng": -122.4239
+        },
+        "status": {
+            "battery": 98,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "EMS6D",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "10",
+        "current_pos": {
+            "lat": 37.786,
+            "lng": -122.4468
+        },
+        "status": {
+            "battery": 72,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "EMSA1",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "32",
+        "current_pos": {
+            "lat": 37.7358,
+            "lng": -122.4239
+        },
+        "status": {
+            "battery": 91,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "FB1",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "04",
+        "current_pos": {
+            "lat": 37.7719,
+            "lng": -122.3888
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "FB3",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 91,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "G1",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "13",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.4022
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "G2",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "G3",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "13",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.4022
+        },
+        "status": {
+            "battery": 74,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "G4",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.780478512,
+            "lng": -122.412512256
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "G6",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "13",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.4022
+        },
+        "status": {
+            "battery": 72,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "HT48",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "48",
+        "current_pos": {
+            "lat": 37.8247,
+            "lng": -122.3708
+        },
+        "status": {
+            "battery": 87,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "HZ1",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "02",
+        "current_pos": {
+            "lat": 37.7972,
+            "lng": -122.4101
+        },
+        "status": {
+            "battery": 71,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM101",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "05",
+        "current_pos": {
+            "lat": 37.7797,
+            "lng": -122.4316
+        },
+        "status": {
+            "battery": 71,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM102",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "02",
+        "current_pos": {
+            "lat": 37.7972,
+            "lng": -122.4101
+        },
+        "status": {
+            "battery": 96,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM103",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 91,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM104",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 96,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM107",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "21",
+        "current_pos": {
+            "lat": 37.7765,
+            "lng": -122.4414
+        },
+        "status": {
+            "battery": 83,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM108",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "40",
+        "current_pos": {
+            "lat": 37.7479,
+            "lng": -122.4754
+        },
+        "status": {
+            "battery": 72,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM110",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 93,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM112",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "06",
+        "current_pos": {
+            "lat": 37.7656,
+            "lng": -122.4308
+        },
+        "status": {
+            "battery": 74,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM113",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "10",
+        "current_pos": {
+            "lat": 37.786,
+            "lng": -122.4468
+        },
+        "status": {
+            "battery": 95,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM114",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 88,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM115",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "16",
+        "current_pos": {
+            "lat": 37.7997,
+            "lng": -122.4357
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM203",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 96,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM204",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "41",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.415
+        },
+        "status": {
+            "battery": 87,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM205",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 95,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM206",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "02",
+        "current_pos": {
+            "lat": 37.7972,
+            "lng": -122.4101
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM208",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "05",
+        "current_pos": {
+            "lat": 37.7797,
+            "lng": -122.4316
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "KM301",
+        "type": "BLS",
+        "is_als": false,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 88,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M501",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 78,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M502",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 71,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M503",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "19",
+        "current_pos": {
+            "lat": 37.756235783,
+            "lng": -122.391030406
+        },
+        "status": {
+            "battery": 74,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "M504",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 85,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M505",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "33",
+        "current_pos": {
+            "lat": 37.7238,
+            "lng": -122.4533
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M506",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 93,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M507",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M508",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "17",
+        "current_pos": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "status": {
+            "battery": 98,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M509",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "42",
+        "current_pos": {
+            "lat": 37.7303,
+            "lng": -122.405
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M510",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "08",
+        "current_pos": {
+            "lat": 37.7771,
+            "lng": -122.3951
+        },
+        "status": {
+            "battery": 71,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M511",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "19",
+        "current_pos": {
+            "lat": 37.7266,
+            "lng": -122.4764
+        },
+        "status": {
+            "battery": 96,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M512",
+        "type": "MEDIC",
+        "is_als": false,
+        "home_station": "24",
+        "current_pos": {
+            "lat": 37.7512,
+            "lng": -122.4413
+        },
+        "status": {
+            "battery": 76,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M513",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 94,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M514",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "19",
+        "current_pos": {
+            "lat": 37.7266,
+            "lng": -122.4764
+        },
+        "status": {
+            "battery": 96,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M515",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "15",
+        "current_pos": {
+            "lat": 37.7242,
+            "lng": -122.4578
+        },
+        "status": {
+            "battery": 84,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M516",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "17",
+        "current_pos": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "status": {
+            "battery": 93,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M527",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "08",
+        "current_pos": {
+            "lat": 37.7771,
+            "lng": -122.3951
+        },
+        "status": {
+            "battery": 86,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M530",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 98,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M546",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 74,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M547",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "37",
+        "current_pos": {
+            "lat": 37.7562,
+            "lng": -122.3992
+        },
+        "status": {
+            "battery": 77,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M550",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 87,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M552",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 79,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M553",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "23",
+        "current_pos": {
+            "lat": 37.78393,
+            "lng": -122.4126
+        },
+        "status": {
+            "battery": 84,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "M554",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 75,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M555",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "40",
+        "current_pos": {
+            "lat": 37.7479,
+            "lng": -122.4754
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M556",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "13",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.4022
+        },
+        "status": {
+            "battery": 77,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M557",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M558",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "19",
+        "current_pos": {
+            "lat": 37.7266,
+            "lng": -122.4764
+        },
+        "status": {
+            "battery": 85,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M559",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "10",
+        "current_pos": {
+            "lat": 37.786,
+            "lng": -122.4468
+        },
+        "status": {
+            "battery": 88,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M560",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "05",
+        "current_pos": {
+            "lat": 37.7797,
+            "lng": -122.4316
+        },
+        "status": {
+            "battery": 77,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M561",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "08",
+        "current_pos": {
+            "lat": 37.788986293,
+            "lng": -122.406865032
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "M562",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 86,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M563",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 82,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M564",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "41",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.415
+        },
+        "status": {
+            "battery": 83,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M565",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "35",
+        "current_pos": {
+            "lat": 37.7909,
+            "lng": -122.3884
+        },
+        "status": {
+            "battery": 78,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M566",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 71,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M567",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "08",
+        "current_pos": {
+            "lat": 37.7771,
+            "lng": -122.3951
+        },
+        "status": {
+            "battery": 85,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M568",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "44",
+        "current_pos": {
+            "lat": 37.7176,
+            "lng": -122.4011
+        },
+        "status": {
+            "battery": 79,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M571",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "38",
+        "current_pos": {
+            "lat": 37.7889,
+            "lng": -122.4326
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M572",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "11",
+        "current_pos": {
+            "lat": 37.7485,
+            "lng": -122.4265
+        },
+        "status": {
+            "battery": 86,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M573",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "13",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.4022
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M574",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "17",
+        "current_pos": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "status": {
+            "battery": 87,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M575",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "09",
+        "current_pos": {
+            "lat": 37.783567786,
+            "lng": -122.419273433
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "M576",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "22",
+        "current_pos": {
+            "lat": 37.7645,
+            "lng": -122.4735
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M577",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "41",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.415
+        },
+        "status": {
+            "battery": 72,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M579",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "06",
+        "current_pos": {
+            "lat": 37.7656,
+            "lng": -122.4308
+        },
+        "status": {
+            "battery": 85,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M580",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "42",
+        "current_pos": {
+            "lat": 37.7303,
+            "lng": -122.405
+        },
+        "status": {
+            "battery": 93,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M582",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 98,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M583",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "24",
+        "current_pos": {
+            "lat": 37.7512,
+            "lng": -122.4413
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M584",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "33",
+        "current_pos": {
+            "lat": 37.7238,
+            "lng": -122.4533
+        },
+        "status": {
+            "battery": 84,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M586",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 76,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M587",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M588",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 92,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M589",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "32",
+        "current_pos": {
+            "lat": 37.7358,
+            "lng": -122.4239
+        },
+        "status": {
+            "battery": 91,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M590",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "15",
+        "current_pos": {
+            "lat": 37.7242,
+            "lng": -122.4578
+        },
+        "status": {
+            "battery": 78,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M591",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 98,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M592",
+        "type": "MEDIC",
+        "is_als": false,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 84,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M594",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "13",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.4022
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M595",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "44",
+        "current_pos": {
+            "lat": 37.7176,
+            "lng": -122.4011
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M596",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "08",
+        "current_pos": {
+            "lat": 37.7771,
+            "lng": -122.3951
+        },
+        "status": {
+            "battery": 85,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "M599",
+        "type": "MEDIC",
+        "is_als": true,
+        "home_station": "20",
+        "current_pos": {
+            "lat": 37.749,
+            "lng": -122.4529
+        },
+        "status": {
+            "battery": 89,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "MA1",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "33",
+        "current_pos": {
+            "lat": 37.7238,
+            "lng": -122.4533
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "MP17",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "17",
+        "current_pos": {
+            "lat": 37.7289,
+            "lng": -122.3857
+        },
+        "status": {
+            "battery": 98,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "MP25",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "32",
+        "current_pos": {
+            "lat": 37.7358,
+            "lng": -122.4239
+        },
+        "status": {
+            "battery": 74,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "MP2602",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.762157,
+            "lng": -122.41403
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "MP2603",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "40",
+        "current_pos": {
+            "lat": 37.7479,
+            "lng": -122.4754
+        },
+        "status": {
+            "battery": 91,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "MP43",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "43",
+        "current_pos": {
+            "lat": 37.7234,
+            "lng": -122.4287
+        },
+        "status": {
+            "battery": 83,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "OBP1",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "23",
+        "current_pos": {
+            "lat": 37.7619,
+            "lng": -122.5052
+        },
+        "status": {
+            "battery": 97,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "QRV1",
+        "type": "SUPPORT",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "QRV2",
+        "type": "SUPPORT",
+        "is_als": true,
+        "home_station": "03",
+        "current_pos": {
+            "lat": 37.7869,
+            "lng": -122.4172
+        },
+        "status": {
+            "battery": 92,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "RA48",
+        "type": "MEDIC",
+        "is_als": false,
+        "home_station": "48",
+        "current_pos": {
+            "lat": 37.8247,
+            "lng": -122.3708
+        },
+        "status": {
+            "battery": 83,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "RB1",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.805199545,
+            "lng": -122.432090716
+        },
+        "status": {
+            "battery": 86,
+            "fatigue": "Frisch",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "RB35",
+        "type": "PRIVATE",
+        "is_als": false,
+        "home_station": "35",
+        "current_pos": {
+            "lat": 37.7909,
+            "lng": -122.3884
+        },
+        "status": {
+            "battery": 72,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "RC1",
+        "type": "RESCUE CAPTAIN",
+        "is_als": true,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 79,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "RC2",
+        "type": "RESCUE CAPTAIN",
+        "is_als": true,
+        "home_station": "14",
+        "current_pos": {
+            "lat": 37.7806,
+            "lng": -122.4855
+        },
+        "status": {
+            "battery": 79,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "RC3",
+        "type": "RESCUE CAPTAIN",
+        "is_als": true,
+        "home_station": "11",
+        "current_pos": {
+            "lat": 37.7485,
+            "lng": -122.4265
+        },
+        "status": {
+            "battery": 81,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "RC4",
+        "type": "RESCUE CAPTAIN",
+        "is_als": true,
+        "home_station": "33",
+        "current_pos": {
+            "lat": 37.7238,
+            "lng": -122.4533
+        },
+        "status": {
+            "battery": 97,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "RC5",
+        "type": "RESCUE CAPTAIN",
+        "is_als": false,
+        "home_station": "38",
+        "current_pos": {
+            "lat": 37.7889,
+            "lng": -122.4326
+        },
+        "status": {
+            "battery": 97,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "RS1",
+        "type": "RESCUE SQUAD",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "RS2",
+        "type": "RESCUE SQUAD",
+        "is_als": false,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "RWC1",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 75,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "RWC2",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 72,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SCRT1",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "14",
+        "current_pos": {
+            "lat": 37.7806,
+            "lng": -122.4855
+        },
+        "status": {
+            "battery": 78,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SCRT10",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.7813,
+            "lng": -122.4052
+        },
+        "status": {
+            "battery": 89,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SCRT11",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "29",
+        "current_pos": {
+            "lat": 37.7667,
+            "lng": -122.4042
+        },
+        "status": {
+            "battery": 77,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SCRT2",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "40",
+        "current_pos": {
+            "lat": 37.7479,
+            "lng": -122.4754
+        },
+        "status": {
+            "battery": 88,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SCRT3",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 84,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SCRT4",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SCRT5",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "01",
+        "current_pos": {
+            "lat": 37.785435,
+            "lng": -122.41964
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Normal",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "SCRT6",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "18",
+        "current_pos": {
+            "lat": 37.7513,
+            "lng": -122.4901
+        },
+        "status": {
+            "battery": 74,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SCRT7",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "06",
+        "current_pos": {
+            "lat": 37.7656,
+            "lng": -122.4308
+        },
+        "status": {
+            "battery": 87,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SCRT8",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 92,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SCRT9",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 71,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SFR6",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "05",
+        "current_pos": {
+            "lat": 37.7797,
+            "lng": -122.4316
+        },
+        "status": {
+            "battery": 75,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SORT1",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "06",
+        "current_pos": {
+            "lat": 37.7656,
+            "lng": -122.4308
+        },
+        "status": {
+            "battery": 97,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SORT2",
+        "type": "CP",
+        "is_als": false,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.779584438,
+            "lng": -122.416768093
+        },
+        "status": {
+            "battery": 76,
+            "fatigue": "Frisch",
+            "is_available": false
+        }
+    },
+    {
+        "unit_id": "SR18",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "34",
+        "current_pos": {
+            "lat": 37.7788,
+            "lng": -122.502
+        },
+        "status": {
+            "battery": 83,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "SR34",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "23",
+        "current_pos": {
+            "lat": 37.7619,
+            "lng": -122.5052
+        },
+        "status": {
+            "battery": 97,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T01",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "35",
+        "current_pos": {
+            "lat": 37.7909,
+            "lng": -122.3884
+        },
+        "status": {
+            "battery": 76,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T02",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "28",
+        "current_pos": {
+            "lat": 37.8016,
+            "lng": -122.4089
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T03",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "36",
+        "current_pos": {
+            "lat": 37.7395,
+            "lng": -122.402
+        },
+        "status": {
+            "battery": 81,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T04",
+        "type": "TRUCK",
+        "is_als": true,
+        "home_station": "04",
+        "current_pos": {
+            "lat": 37.7719,
+            "lng": -122.3888
+        },
+        "status": {
+            "battery": 82,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T05",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "05",
+        "current_pos": {
+            "lat": 37.7797,
+            "lng": -122.4316
+        },
+        "status": {
+            "battery": 76,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T06",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "06",
+        "current_pos": {
+            "lat": 37.7656,
+            "lng": -122.4308
+        },
+        "status": {
+            "battery": 93,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T07",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "07",
+        "current_pos": {
+            "lat": 37.7597,
+            "lng": -122.4149
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T08",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "08",
+        "current_pos": {
+            "lat": 37.7771,
+            "lng": -122.3951
+        },
+        "status": {
+            "battery": 80,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T09",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "42",
+        "current_pos": {
+            "lat": 37.7303,
+            "lng": -122.405
+        },
+        "status": {
+            "battery": 83,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T10",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "10",
+        "current_pos": {
+            "lat": 37.786,
+            "lng": -122.4468
+        },
+        "status": {
+            "battery": 89,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T11",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "11",
+        "current_pos": {
+            "lat": 37.7485,
+            "lng": -122.4265
+        },
+        "status": {
+            "battery": 90,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T12",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "24",
+        "current_pos": {
+            "lat": 37.7512,
+            "lng": -122.4413
+        },
+        "status": {
+            "battery": 92,
+            "fatigue": "Frisch",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T13",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "13",
+        "current_pos": {
+            "lat": 37.795,
+            "lng": -122.4022
+        },
+        "status": {
+            "battery": 73,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T14",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "31",
+        "current_pos": {
+            "lat": 37.7801,
+            "lng": -122.4705
+        },
+        "status": {
+            "battery": 91,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T15",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "44",
+        "current_pos": {
+            "lat": 37.7176,
+            "lng": -122.4011
+        },
+        "status": {
+            "battery": 98,
+            "fatigue": "Erm\u00fcdet",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T16",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "16",
+        "current_pos": {
+            "lat": 37.7997,
+            "lng": -122.4357
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T17",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "42",
+        "current_pos": {
+            "lat": 37.7303,
+            "lng": -122.405
+        },
+        "status": {
+            "battery": 88,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T18",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "18",
+        "current_pos": {
+            "lat": 37.7513,
+            "lng": -122.4901
+        },
+        "status": {
+            "battery": 99,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T19",
+        "type": "TRUCK",
+        "is_als": true,
+        "home_station": "33",
+        "current_pos": {
+            "lat": 37.7238,
+            "lng": -122.4533
+        },
+        "status": {
+            "battery": 70,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "T48",
+        "type": "TRUCK",
+        "is_als": false,
+        "home_station": "48",
+        "current_pos": {
+            "lat": 37.8247,
+            "lng": -122.3708
+        },
+        "status": {
+            "battery": 72,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    },
+    {
+        "unit_id": "VAN1",
+        "type": "SUPPORT",
+        "is_als": false,
+        "home_station": "08",
+        "current_pos": {
+            "lat": 37.7771,
+            "lng": -122.3951
+        },
+        "status": {
+            "battery": 84,
+            "fatigue": "Normal",
+            "is_available": true
+        }
+    }
+]

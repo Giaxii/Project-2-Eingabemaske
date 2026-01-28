@@ -9,18 +9,18 @@ export const useMapSimulation = () => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            // 1. Vehicle Simulation
-            setVehicles(currentVehicles =>
-                currentVehicles.map(v => {
-                    // Simulate fuel consumption
-                    let newFuel = v.fuel;
-                    if (v.status !== 'Available' && Math.random() > 0.7) {
-                        newFuel = Math.max(0, v.fuel - 1);
-                    }
+            // 1. Vehicle Simulation - DISABLED to keep fuel values static from JSON
+            // setVehicles(currentVehicles =>
+            //     currentVehicles.map(v => {
+            //         // Simulate fuel consumption
+            //         let newFuel = v.fuel;
+            //         if (v.status !== 'Available' && Math.random() > 0.7) {
+            //             newFuel = Math.max(0, v.fuel - 1);
+            //         }
 
-                    return { ...v, fuel: newFuel };
-                })
-            );
+            //         return { ...v, fuel: newFuel };
+            //     })
+            // );
 
             // 2. Hospital Simulation - DISABLED to keep values static
             // setHospitals(currentHospitals =>

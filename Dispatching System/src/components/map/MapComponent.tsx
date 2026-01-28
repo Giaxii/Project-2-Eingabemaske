@@ -335,7 +335,8 @@ const RoutingMachine = ({ from, to, setRouteMetrics }: { from: [number, number],
 };
 
 export const MapComponent: React.FC<MapComponentProps> = ({ hospitals, vehicles, incidents, stations, selectedItem, onSelect, setRouteMetrics }) => {
-    const center: [number, number] = [48.7667, 11.4226];
+    const center: [number, number] = [37.7749, -122.4194]; // San Francisco coordinates
+
 
     const targetIncident = incidents[0];
     const showRoute = selectedItem?.type === 'Vehicle' && targetIncident;
@@ -391,7 +392,7 @@ export const MapComponent: React.FC<MapComponentProps> = ({ hospitals, vehicles,
                         <Marker
                             key={v.id}
                             position={v.position}
-                            icon={GetIcon('Vehicle', v.category, v.subtype)}
+                            icon={GetIcon('Vehicle', v.category, v.id)}
                             eventHandlers={{ click: () => onSelect(v) }}
                             zIndexOffset={100}
                         >

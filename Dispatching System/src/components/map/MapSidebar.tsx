@@ -207,6 +207,7 @@ export const MapSidebar: React.FC<MapSidebarProps> = ({ item, onClose, incidents
 };
 
 const VehicleDetails = ({ vehicle, routeMetrics, stations }: any) => {
+    // Find parent station for ALL vehicles (not just Available)
     const parentStation = vehicle.stationId && stations
         ? stations.find((s: Station) => s.id === vehicle.stationId)
         : null;
@@ -280,6 +281,12 @@ const VehicleDetails = ({ vehicle, routeMetrics, stations }: any) => {
                     <span style={{ color: '#94a3b8' }}>Type</span>
                     <span style={{ fontWeight: 600 }}>{vehicle.subtype}</span>
                 </div>
+                {parentStation && (
+                    <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
+                        <span style={{ color: '#94a3b8' }}>Home Station</span>
+                        <span style={{ color: 'white' }}>{parentStation.name}</span>
+                    </div>
+                )}
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <span style={{ color: '#94a3b8' }}>Status</span>
                     <span style={{
@@ -442,13 +449,13 @@ const HospitalDetails = ({ hospital }: { hospital: Hospital }) => {
     const occupied = total - available;
     const occupancyRate = Math.round((occupied / total) * 100);
 
-    let statusColor = '#4ade80';
+    let statusColor = '#22c55e';
     let statusText = 'Normal';
-    if (occupancyRate > 90) {
+    if (occupancyRate >= 95) {
         statusColor = '#ef4444';
         statusText = 'Critical';
-    } else if (occupancyRate > 75) {
-        statusColor = '#f97316';
+    } else if (occupancyRate >= 70) {
+        statusColor = '#ff9500';
         statusText = 'High';
     }
 

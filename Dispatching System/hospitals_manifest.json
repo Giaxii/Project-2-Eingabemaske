@@ -1,0 +1,240 @@
+[
+    {
+        "id": "ZSFG",
+        "name": "Zuckerberg San Francisco General Hospital",
+        "coords": {
+            "lat": 37.7556,
+            "lng": -122.4041
+        },
+        "type": "Hospital",
+        "bedsTotal": 284,
+        "bedsAvailable": 142,
+        "emergencyAvailable": true,
+        "traumaCenter": true,
+        "traumaLevel": "I",
+        "address": "1001 Potrero Avenue, San Francisco, CA 94110",
+        "specialties": [
+            "Level I Trauma",
+            "Emergency Medicine",
+            "Critical Care"
+        ],
+        "status": "active"
+    },
+    {
+        "id": "UCSF-Parnassus",
+        "name": "UCSF Medical Center - Parnassus",
+        "coords": {
+            "lat": 37.7627,
+            "lng": -122.4578
+        },
+        "type": "Hospital",
+        "bedsTotal": 600,
+        "bedsAvailable": 360,
+        "emergencyAvailable": true,
+        "traumaCenter": false,
+        "address": "505 Parnassus Avenue, San Francisco, CA 94143",
+        "specialties": [
+            "Primary Stroke Center",
+            "STEMI Receiving Center",
+            "Specialty Care"
+        ],
+        "status": "active"
+    },
+    {
+        "id": "UCSF-MissionBay",
+        "name": "UCSF Benioff Children's Hospital",
+        "coords": {
+            "lat": 37.7679,
+            "lng": -122.3924
+        },
+        "type": "Hospital",
+        "bedsTotal": 183,
+        "bedsAvailable": 110,
+        "emergencyAvailable": true,
+        "traumaCenter": false,
+        "address": "1975 Fourth Street, San Francisco, CA 94158",
+        "specialties": [
+            "Pediatric Emergency",
+            "Children's Care",
+            "Neonatal ICU"
+        ],
+        "status": "active"
+    },
+    {
+        "id": "CPMC-VanNess",
+        "name": "California Pacific Medical Center - Van Ness Campus",
+        "coords": {
+            "lat": 37.7881,
+            "lng": -122.4225
+        },
+        "type": "Hospital",
+        "bedsTotal": 274,
+        "bedsAvailable": 82,
+        "emergencyAvailable": true,
+        "traumaCenter": false,
+        "address": "1260 Franklin Street, San Francisco, CA 94109",
+        "specialties": [
+            "General Medicine",
+            "Surgery",
+            "Emergency Care"
+        ],
+        "status": "active"
+    },
+    {
+        "id": "CPMC-Davies",
+        "name": "California Pacific Medical Center - Davies Campus",
+        "coords": {
+            "lat": 37.7693,
+            "lng": -122.4314
+        },
+        "type": "Hospital",
+        "bedsTotal": 120,
+        "bedsAvailable": 48,
+        "emergencyAvailable": true,
+        "traumaCenter": false,
+        "address": "601 Duboce Avenue, San Francisco, CA 94117",
+        "specialties": [
+            "General Medicine",
+            "Emergency Care"
+        ],
+        "status": "active"
+    },
+    {
+        "id": "CPMC-MissionBernal",
+        "name": "California Pacific Medical Center - Mission Bernal Campus",
+        "coords": {
+            "lat": 37.7467,
+            "lng": -122.4218
+        },
+        "type": "Hospital",
+        "bedsTotal": 150,
+        "bedsAvailable": 60,
+        "emergencyAvailable": true,
+        "traumaCenter": false,
+        "address": "3555 Cesar Chavez Street, San Francisco, CA 94110",
+        "specialties": [
+            "General Medicine",
+            "Emergency Care"
+        ],
+        "status": "active"
+    },
+    {
+        "id": "Kaiser-Geary",
+        "name": "Kaiser Permanente San Francisco Medical Center",
+        "coords": {
+            "lat": 37.7846,
+            "lng": -122.4416
+        },
+        "type": "Hospital",
+        "bedsTotal": 247,
+        "bedsAvailable": 99,
+        "emergencyAvailable": true,
+        "traumaCenter": false,
+        "address": "2425 Geary Boulevard, San Francisco, CA 94115",
+        "specialties": [
+            "General Medicine",
+            "Emergency Care",
+            "Surgery"
+        ],
+        "status": "active"
+    },
+    {
+        "id": "SaintFrancis",
+        "name": "Saint Francis Memorial Hospital",
+        "coords": {
+            "lat": 37.7925,
+            "lng": -122.4176
+        },
+        "type": "Hospital",
+        "bedsTotal": 239,
+        "bedsAvailable": 119,
+        "emergencyAvailable": true,
+        "traumaCenter": false,
+        "address": "900 Hyde Street, San Francisco, CA 94109",
+        "specialties": [
+            "General Medicine",
+            "Emergency Care",
+            "Cardiology"
+        ],
+        "status": "active"
+    },
+    {
+        "id": "SaintMarys",
+        "name": "Saint Mary's Medical Center",
+        "coords": {
+            "lat": 37.7659,
+            "lng": -122.4535
+        },
+        "type": "Hospital",
+        "bedsTotal": 341,
+        "bedsAvailable": 170,
+        "emergencyAvailable": true,
+        "traumaCenter": false,
+        "address": "450 Stanyan Street, San Francisco, CA 94117",
+        "specialties": [
+            "General Medicine",
+            "Emergency Care",
+            "Orthopedics"
+        ],
+        "status": "active"
+    },
+    {
+        "id": "ChineseHospital",
+        "name": "Chinese Hospital",
+        "coords": {
+            "lat": 37.7946,
+            "lng": -122.4068
+        },
+        "type": "Hospital",
+        "bedsTotal": 54,
+        "bedsAvailable": 2,
+        "emergencyAvailable": false,
+        "traumaCenter": false,
+        "address": "845 Jackson Street, San Francisco, CA 94133",
+        "specialties": [
+            "General Medicine",
+            "Bilingual Care"
+        ],
+        "status": "active"
+    },
+    {
+        "id": "VA-SF",
+        "name": "San Francisco VA Medical Center",
+        "coords": {
+            "lat": 37.7826,
+            "lng": -122.5002
+        },
+        "type": "Hospital",
+        "bedsTotal": 244,
+        "bedsAvailable": 122,
+        "emergencyAvailable": true,
+        "traumaCenter": false,
+        "address": "4150 Clement Street, San Francisco, CA 94121",
+        "specialties": [
+            "Veterans Care",
+            "Mental Health",
+            "General Medicine"
+        ],
+        "status": "active"
+    },
+    {
+        "id": "UCSF-MountZion",
+        "name": "UCSF Medical Center - Mount Zion",
+        "coords": {
+            "lat": 37.7883,
+            "lng": -122.4409
+        },
+        "type": "Hospital",
+        "bedsTotal": 90,
+        "bedsAvailable": 36,
+        "emergencyAvailable": true,
+        "traumaCenter": false,
+        "address": "1600 Divisadero Street, San Francisco, CA 94115",
+        "specialties": [
+            "Cancer Care",
+            "Outpatient Surgery",
+            "Specialty Clinics"
+        ],
+        "status": "active"
+    }
+]
