@@ -28,12 +28,14 @@ export interface Unit {
     status: UnitStatus;
     distance?: string;
     eta?: string;
+    etr?: string; // Estimated Time to Ready
     location: {
         lat: number;
         lng: number;
     };
     capabilities: string[];
     statusLastUpdated: string; // ISO 8601
+    stationId?: string;
 }
 
 export interface CallData {

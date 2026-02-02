@@ -6,6 +6,7 @@ export interface ResourceCardProps {
     type: string;
     callsign: string;
     eta: string;
+    etr?: string;
     matchScore: number;
     distance?: string;
     trafficInfo?: string;
@@ -21,7 +22,7 @@ export interface ResourceCardProps {
 }
 
 export const ResourceCard: React.FC<ResourceCardProps> = ({
-    type, callsign, eta, matchScore,
+    type, callsign, eta, etr, matchScore,
     distance, category,
     isSelected, onClick,
     isSelectedForDispatch = true, // Default to true
@@ -101,10 +102,26 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({
                             {type}
                         </div>
                         {/* ETA & Distance Context */}
-                        <div className="flex items-center gap-2 text-xs font-mono">
-                            <span className="text-green-400 font-bold">{eta}</span>
-                            <span className="text-white/20">•</span>
-                            <span className="text-textMuted">{distance}{distance && !distance.includes('km') && !distance.includes('--') ? ' km' : ''}</span>
+                        <div className="flex flex-col">
+                            <div className="flex items-center gap-2 text-xs font-mono">
+                                <span className={cn(
+                                    "font-bold",
+                                    (etr && parseInt(etr) > 0) ? "text-yellow-400" : "text-green-400"
+                                )}>{eta}</span>
+                                <span className="text-white/20">•</span>
+                                <span className="text-textMuted">{distance}{distance && !distance.includes('km') && !distance.includes('--') ? ' km' : ''}</span>
+                            </div>
+
+                            {/* Breakdown */}
+                            <div className="text-[9px] text-textMuted/70 font-mono tracking-wide mt-0.5">
+                                {(etr && parseInt(etr) > 0 && eta) ? (
+                                    <span>
+                                        {parseInt(eta) - parseInt(etr)} min Anfahrt + <span className="text-yellow-500/80">{etr} ETR</span>
+                                    </span>
+                                ) : (
+                                    <span className="text-green-500/60">Sofort verfügbar</span>
+                                )}
+                            </div>
                         </div>
                     </div>
                 </div>

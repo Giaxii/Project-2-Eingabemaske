@@ -31,6 +31,7 @@ export const DispatchRecommendation: React.FC<{ onFocusModeChange: (isFocus: boo
             category: unit.category,
             callsign: unit.callSign,
             eta: unit.eta || 'Calculated from Map',
+            etr: unit.etr || '0 min',
             matchScore: 100,
             distance: unit.distance || '--',
             trafficInfo: 'Live Data',

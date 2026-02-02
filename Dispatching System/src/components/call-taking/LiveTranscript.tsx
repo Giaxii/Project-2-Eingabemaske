@@ -289,14 +289,25 @@ export const LiveTranscript: React.FC<LiveTranscriptProps> = ({ onToggleCollapse
                 onScroll={handleScroll}
             >
                 {lines.map((line, idx) => {
-                    const isCaller = idx % 2 !== 0;
+                    // Check if line contains "CALLER" tag from scenario mapping
+                    const isCaller = line.includes("CALLER") || line.includes("Miller");
+                    const senderName = isCaller ? "Caller" : (line.includes("DISPATCH") ? "Dispatcher" : "System");
+
+                    // Extract time if present [HH:MM:SS]
+                    const timeMatch = line.match(/^\[(.*?)\]/);
+                    const timeStr = timeMatch ? timeMatch[1] : `00:${String(idx * 5).padStart(2, '0')}`;
+
+                    // Remove the Sender/Time prefix for display if desired, or keep it.
+                    // The `renderLine` function expects just text. 
+                    // Let's clean the mock prefix "SENDER: " for the bubble content if it exists
+                    const cleanText = line.replace(/^\[.*?\]\s*.*?:/, '').trim() || line;
 
                     return (
                         <div key={idx} className="flex flex-col gap-1 group">
                             <div className="mb-2 transition-all duration-300">
                                 <div className="text-[10px] text-textMuted mb-1 font-mono uppercase tracking-wider opacity-60 flex justify-between ml-1 mr-1">
-                                    <span>{isCaller ? "Caller" : "Dispatcher"}</span>
-                                    <span>00:{String(idx * 5).padStart(2, '0')}</span>
+                                    <span>{senderName}</span>
+                                    <span>{timeStr}</span>
                                 </div>
                                 <div className={cn(
                                     "p-3 rounded-xl relative leading-relaxed text-sm shadow-sm border font-mono",
@@ -304,7 +315,7 @@ export const LiveTranscript: React.FC<LiveTranscriptProps> = ({ onToggleCollapse
                                         ? "bg-surfaceHighlight/40 text-blue-100 border-white/5 rounded-tl-sm ml-0 mr-4"
                                         : "bg-surface/60 text-stone-300 border-white/5 rounded-tr-sm ml-8 mr-0"
                                 )}>
-                                    {renderLine(line, isCaller)}
+                                    {renderLine(cleanText, isCaller)}
                                 </div>
                             </div>
                         </div>

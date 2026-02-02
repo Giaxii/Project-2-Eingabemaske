@@ -1,6 +1,7 @@
 import React from 'react';
-import { Phone, Map, Settings, LogOut, Bell } from 'lucide-react';
+import { Phone, Map, Settings, LogOut, Bell, FileText } from 'lucide-react';
 import { cn } from '../lib/utils';
+import { useCAD } from '../context/CADContext';
 
 interface SidebarProps {
     activeWorkspace: 'A' | 'B' | 'C' | 'D';
@@ -8,6 +9,8 @@ interface SidebarProps {
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({ activeWorkspace, onWorkspaceChange }) => {
+    // Removed Scenario Loading Logic as per request to focus on single scenario
+
     const navItems = [
         { id: 'A', label: 'Emergency', icon: Phone, description: 'Call Taking' },
         { id: 'D', label: 'Map', icon: Map, description: 'Live Map' },
@@ -110,3 +113,5 @@ export const Sidebar: React.FC<SidebarProps> = ({ activeWorkspace, onWorkspaceCh
         </div>
     );
 };
+
+
